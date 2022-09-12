@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: stressor
-          image: registry.gitlab.com/datamole/infrastructure/operations/stressor:latest
+          image: registry.gitlab.com/company/playgrounds/stressor:latest
           ports:
             - containerPort: 8000
       imagePullSecrets:
